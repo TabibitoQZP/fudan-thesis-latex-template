@@ -512,37 +512,21 @@
   }
 \cs_new_protected:Npn \__fdu_load_cjk_font_fandol:
   {
-    \__fdu_setCJKmainfont:nn   { FandolSong }
+    \__fdu_setCJKmainfont:nn   { STSongti-SC-Regular }
       {
-        Extension      = .otf,
-        UprightFont    = *-Regular,
-        BoldFont       = *-Bold,
-        ItalicFont     = *-Regular,
-        BoldItalicFont = *-Bold
+
       }
-    \__fdu_setCJKsansfont:nn   { FandolHei  }
+    \__fdu_setCJKsansfont:nn   { STHeiti  }
       {
-        Extension      = .otf,
-        UprightFont    = *-Regular,
-        BoldFont       = *-Bold,
-        ItalicFont     = *-Regular,
-        BoldItalicFont = *-Bold
+
       }
-    \__fdu_setCJKmonofont:nn   { FandolFang }
+    \__fdu_setCJKmonofont:nn   { STFangsong }
       {
-        Extension      = .otf,
-        UprightFont    = *-Regular,
-        BoldFont       = *-Regular,
-        ItalicFont     = *-Regular,
-        BoldItalicFont = *-Regular
+
       }
-    \__fdu_set_cjk_font_kai:nn { FandolKai  }
+    \__fdu_set_cjk_font_kai:nn { STKaiti  }
       {
-        Extension      = .otf,
-        UprightFont    = *-Regular,
-        BoldFont       = *-Regular,
-        ItalicFont     = *-Regular,
-        BoldItalicFont = *-Regular
+
       }
   }
 \cs_new_protected:Npn \__fdu_load_cjk_font_founder:
