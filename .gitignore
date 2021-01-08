@@ -1,5 +1,4 @@
 */*.aux
-*/*.pdf
 */*.bak
 */*.log
 */*.bbl
@@ -14,4 +13,6 @@
 */*.fdb_latexmk
 */*.synctex.gz
 */*.DS_Store
+*/*.bcf
+*/*.xml
 *.DS_Store
